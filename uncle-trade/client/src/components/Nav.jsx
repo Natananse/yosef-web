@@ -15,7 +15,7 @@ export default function Nav() {
     <header className="nav">
       <div className="container nav__row">
         <a href="#top" className="nav__mark">
-          [Your Company] <span>Export</span>
+          [Yosef Belay] <span>Export</span>
         </a>
 
         <nav className={`nav__links ${open ? "is-open" : ""}`}>
