@@ -10,7 +10,7 @@ export default function Hero() {
           </h1>
           <p className="hero__amharic">የታታሪዋ ኢትዮጵያ ተምሳሌት</p>
           <p className="lede">
-            [Your Company Name] sources coffee and grain commodities directly
+            [Yosef Belay import-export] sources coffee and grain commodities directly
             from farmers, cooperatives, and the ECX floor, grades and
             processes them to export standard, and ships to importers across
             the globe.
@@ -28,7 +28,7 @@ export default function Hero() {
         <dl className="hero__stats">
           <div>
             <dt>Years trading</dt>
-            <dd>[X]+</dd>
+            <dd>[8]+</dd>
           </div>
           <div>
             <dt>Commodities handled</dt>
@@ -36,7 +36,7 @@ export default function Hero() {
           </div>
           <div>
             <dt>Export markets</dt>
-            <dd>[X] countries</dd>
+            <dd>[10] countries</dd>
           </div>
         </dl>
       </div>

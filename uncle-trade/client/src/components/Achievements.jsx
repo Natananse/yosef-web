@@ -3,8 +3,8 @@
 // membership) do more for credibility than a long list of placeholders —
 // don't pad this with items that aren't real.
 const AWARDS = [
-  { org: "[Bank name]", title: "[e.g. Top exporter recognition]" },
-  { org: "ECX", title: "[e.g. Recognition letter / member since Year]" },
+  { org: "[Abisnya]", title: "[Top exporter recognition]" },
+  { org: "ECX", title: "[ Recognition letter / member since Year]" },
   { org: "[Chamber of Commerce]", title: "[e.g. Registered member since Year]" },
   { org: "[Customs authority]", title: "[e.g. Authorized Economic Operator status]" },
 ];

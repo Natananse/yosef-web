@@ -7,8 +7,8 @@ export default function About() {
           <p className="eyebrow">Who we are</p>
           <h2>Built on relationships with growers, not just spreadsheets.</h2>
           <p className="lede">
-            [Uncle's Name] founded [Your Company Name] in [Year] after
-            [X years] working in Ethiopia's coffee and grain trade. The
+            [Yosef Belay] founded [yosef belay import-export] in [2010] after
+            [8 years] working in Ethiopia's coffee and grain trade. The
             business buys directly from farmers, cooperatives, and licensed
             suppliers, and through the Ethiopia Commodity Exchange, then
             manages grading, processing, and export logistics end to end.

@@ -44,8 +44,8 @@ export default function Contact() {
             current pricing and lead time.
           </p>
           <ul className="contact__details">
-            <li>[phone number, e.g. +251 9XX XXX XXX]</li>
-            <li>[email@yourcompany.com]</li>
+            <li>[phone number, +251 911546502]</li>
+            <li>[yosefbelay@gmail.com]</li>
             <li>[Physical address, Addis Ababa]</li>
           </ul>
         </div>
