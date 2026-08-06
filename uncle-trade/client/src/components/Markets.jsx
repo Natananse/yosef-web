@@ -10,9 +10,7 @@ export default function Markets() {
           <p className="eyebrow">Where it goes</p>
           <h2>Shipping to buyers across [8] countries.</h2>
           <p className="lede" style={{ color: "var(--muted)" }}>
-            Replace this list with the countries [Uncle's Name] actually
-            ships to — buyers recognize their own market faster than a
-            generic "global reach" claim.
+            From Ethiopia's highlands to ports and cities worldwide — coffee, sesame, and pulses shipped on schedule, with full traceability from origin to delivery.
           </p>
         </div>
         <ul className="markets__list">
