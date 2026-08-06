@@ -1,8 +1,9 @@
+import founderPhoto from './josi.png';
 export default function About() {
   return (
     <section id="about" className="section about">
       <div className="container about__grid">
-        <div className="about__figure" aria-hidden="true" />
+        <img src={founderPhoto} alt="Yosef Belay, Founder" className="about__figure" />
         <div>
           <p className="eyebrow">Who we are</p>
           <h2>Built on relationships with growers, not just spreadsheets.</h2>
@@ -22,6 +23,11 @@ export default function About() {
       </div>
 
       <style>{`
+      .about__figure {
+      aspect-ratio: 4 / 5;
+      object-fit: cover;
+      border-radius: 4px;
+}
         .about__grid {
           display: grid;
           grid-template-columns: 0.9fr 1.1fr;
