@@ -8,7 +8,7 @@ export default function Markets() {
       <div className="container markets__row">
         <div>
           <p className="eyebrow">Where it goes</p>
-          <h2>Shipping to buyers across [X] countries.</h2>
+          <h2>Shipping to buyers across [8] countries.</h2>
           <p className="lede" style={{ color: "var(--muted)" }}>
             Replace this list with the countries [Uncle's Name] actually
             ships to — buyers recognize their own market faster than a

@@ -1,9 +1,34 @@
+import oil from "../image/oil.png";
+import Vehicles from "../image/Vehicles.png";
+import tyre from "../image/tyre.png";
+import Agrochemicals from "../image/Agrochemicals.png";
+import Steel from "../image/Steel.png";
 const IMPORTS = [
-  { title: "Edible oil", blurb: "Palm oil and sunflower oil, brought in by the container for the domestic market." },
-  { title: "Vehicles", blurb: "Heavy-duty truck inputs and assembly components." },
-  { title: "Tyres", blurb: "Truck tyres from established international brands, sourced to order." },
-  { title: "Agro chemicals", blurb: "Pesticides, herbicides, and fertilisers for the domestic agricultural market." },
-  { title: "Steel bar", blurb: "Construction-grade steel bar in a range of sizes, mainly sourced from Turkey." },
+  {
+    title: "Edible oil",
+    image: oil,
+    blurb: "Palm oil and sunflower oil, brought in by the container for the domestic market."
+  },
+  {
+    title: "Vehicles",
+    image: Vehicles,
+    blurb: "Heavy-duty truck inputs and assembly components."
+  },
+  {
+    title: "Tyres",
+    image: tyre,
+    blurb: "Truck tyres from established international brands, sourced to order."
+  },
+  {
+    title: "Agro chemicals",
+    image: Agrochemicals,
+    blurb: "Pesticides, herbicides and fertilisers for the domestic agricultural market."
+  },
+  {
+    title: "Steel bar",
+    image: Steel,
+    blurb: "Construction-grade steel bar in a range of sizes, mainly sourced from Turkey."
+  }
 ];
 
 export default function Import() {
@@ -13,13 +38,16 @@ export default function Import() {
         <p className="eyebrow">What we import</p>
         <h2>Bringing goods in, not just sending them out.</h2>
         <p className="lede" style={{ color: "var(--muted)" }}>
-          Alongside exports, [Your Company Name] imports goods the domestic
-          market needs — edited to match what your uncle actually imports.
+          Alongside exports, [Yosef Belay import-export] imports goods the domestic
+          market needs, from edible oils to truck tyres. The business has long-standing
+          relationships with international suppliers and freight forwarders, and can
+          source to order.
         </p>
 
         <div className="import__grid">
           {IMPORTS.map((item) => (
             <div className="import__card" key={item.title}>
+              <img src={item.image} alt={item.title} className="import__img" />
               <h4>{item.title}</h4>
               <p>{item.blurb}</p>
             </div>
@@ -39,6 +67,14 @@ export default function Import() {
           border-radius: 4px;
           padding: 20px;
         }
+          .import__img {
+           width: 100%;
+           height: 120px;
+           object-fit: cover;
+           border-radius: 4px;
+           margin-bottom: 12px;
+           display: block;
+}
         .import__card h4 {
           font-family: var(--font-display);
           color: var(--cream);
