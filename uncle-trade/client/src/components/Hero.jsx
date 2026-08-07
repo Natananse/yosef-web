@@ -32,7 +32,7 @@ export default function Hero() {
         <dl className="hero__stats">
           <div>
             <dt>Years trading</dt>
-            <dd>[X]+</dd>
+            <dd>[8]+</dd>
           </div>
           <div>
             <dt>Commodities handled</dt>
@@ -40,7 +40,7 @@ export default function Hero() {
           </div>
           <div>
             <dt>Export markets</dt>
-            <dd>[X] countries</dd>
+            <dd>[2010] countries</dd>
           </div>
         </dl>
       </div>
