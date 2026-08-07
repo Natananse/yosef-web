@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="bean" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e0b25c"/>
+      <stop offset="100%" stop-color="#8a5a1f"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#221609"/>
+  <path
+    d="M32 12c11 0 18 8.5 18 19s-7.5 19-18 19-18-8.5-18-19S21 12 32 12z"
+    fill="url(#bean)"
+  />
+  <path
+    d="M32 15c-1 8-1 24 0 32"
+    fill="none"
+    stroke="#221609"
+    stroke-width="3.5"
+    stroke-linecap="round"
+  />
+</svg>

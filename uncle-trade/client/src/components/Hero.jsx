@@ -1,3 +1,5 @@
+import CoffeeIllustration from "./CoffeeIllustration.jsx";
+
 export default function Hero() {
   return (
     <section id="top" className="hero section section--dark">
@@ -10,7 +12,7 @@ export default function Hero() {
           </h1>
           <p className="hero__amharic">የታታሪዋ ኢትዮጵያ ተምሳሌት</p>
           <p className="lede">
-            [Yosef Belay import-export] sources coffee and grain commodities directly
+            Yosef Belay import-export sources coffee and grain commodities directly
             from farmers, cooperatives, and the ECX floor, grades and
             processes them to export standard, and ships to importers across
             the globe.
@@ -25,10 +27,12 @@ export default function Hero() {
           </div>
         </div>
 
+        <CoffeeIllustration />
+
         <dl className="hero__stats">
           <div>
             <dt>Years trading</dt>
-            <dd>[8]+</dd>
+            <dd>[X]+</dd>
           </div>
           <div>
             <dt>Commodities handled</dt>
@@ -36,7 +40,7 @@ export default function Hero() {
           </div>
           <div>
             <dt>Export markets</dt>
-            <dd>[10] countries</dd>
+            <dd>[X] countries</dd>
           </div>
         </dl>
       </div>
@@ -45,9 +49,9 @@ export default function Hero() {
         .hero { padding-top: clamp(48px, 8vw, 88px); }
         .hero__grid {
           display: grid;
-          grid-template-columns: 1.3fr 0.7fr;
-          gap: 48px;
-          align-items: end;
+          grid-template-columns: 1.1fr 0.8fr 0.7fr;
+          gap: 40px;
+          align-items: center;
         }
         .hero__title {
           font-size: clamp(32px, 5vw, 54px);
@@ -90,6 +94,7 @@ export default function Hero() {
         }
         @media (max-width: 780px) {
           .hero__grid { grid-template-columns: 1fr; }
+          .coffee3d { max-width: 220px; }
           .hero__stats {
             border-left: none;
             border-top: 1px solid var(--line);
